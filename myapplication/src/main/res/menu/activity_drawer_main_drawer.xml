@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Import" />
+        <item
+            android:id="@+id/nav_new"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="New Form" />
+        <item
+            android:id="@+id/nav_open"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/openformstr" />
+        <item
+            android:id="@+id/nav_previous"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Saved Forms" />
+
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Show Map" />
+
+    </group>
+
+    <item android:title="Communicate with Db">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Update" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Settings" />
+        </menu>
+    </item>
+
+</menu>
